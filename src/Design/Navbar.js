@@ -11,12 +11,22 @@ export default class Navbar extends Component {
                 <div>
                     <div><img src={konshinbukai} alt='logo'  className='logo' />Budo Academy</div>
                 </div>
-                    <div className='navbar'>
-                        <div className='grid1'>Home</div>
-                        <div className='grid2'>Tentang Budo Academy</div>
-                        <div className='grid3'>Program</div>
-                        <div className='grid4'>Anak Berkebutuhan Khusus</div>
-                        <div>Instruktur</div>
+                    <div className='navbar-container'>
+                        <div className='grid-1'>
+                            <a href='#' className='navLink'>Home</a>
+                        <div className='grid-2'>
+                            <a href='#' className='navLink'>Tentang Budo Academy</a>
+                         </div> 
+                         <div className='grid-3'>
+                            <a href='#' className='navLink'>Program</a>
+                         </div>   
+                         <div className='grid-4'>
+                             <a href='#' className='navLink'>Anak Berkebutuhan Khusus</a>
+                         </div>
+                         <div className='grid-5'>
+                            <a href='#' className='navLink'>Instruktur</a>
+                         </div>
+                        </div>
                     </div>
             </div>
 
